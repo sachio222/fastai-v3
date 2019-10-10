@@ -7,10 +7,11 @@
 <body>
 <div>
   <div class='center'>
-    <div class='title'>Classify Bear Images 🐻</div>
+    <div class='title'>Classify basic colors</div>
     <p>
-      Use images of <strong>teddy</strong> bears, <strong>black</strong> bears, <strong>grizzly</strong> bears, or
-      all three!
+      This 34 layer ResNet recognizes basic colors. It's part of a larger idea to build
+      an entire network that is solely responsible for color interpretation. Give it an object that is a solid color.
+      It doesn't have to be on a white background. Then press to see the model's prediction. 
     </p>
     <div class='content'>
       <div class='no-display'>
@@ -21,7 +22,7 @@
                accept='image/*'
                onchange='showPicked(this)'>
       </div>
-      <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
+      <button class='choose-file-button' type='button' onclick='showPicker()'>SELECT IMAGE</button>
       <div class='upload-label'>
         <label id='upload-label'>No file chosen</label>
       </div>
@@ -29,7 +30,7 @@
         <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
       </div>
       <div class='analyze'>
-        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analyze</button>
+        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>ANALYZE</button>
       </div>
       <div class='result-label'>
         <label id='result-label'></label>
