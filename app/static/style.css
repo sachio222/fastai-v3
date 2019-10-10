@@ -20,6 +20,7 @@ p {
     font-size: 14px;
 }
 .footer {
+    background-color: white;
     border-top: 1px solid #717171;
     bottom: 0px;
     height: 44px;
@@ -29,6 +30,7 @@ p {
     position: fixed;
     text-align: left;
     width: 100%;
+    z-index: 1000;
 }
 
 .title {
