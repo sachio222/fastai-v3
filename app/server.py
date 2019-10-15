@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1OYze_qhPNTf2Q-k91x6uGJJmgI_W9LMH'
-export_file_name = 'colours_JSK.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1ro7sAF-AfRmwsTt_vSjgjL8J-NtCLuA0'
+export_file_name = 'export.pkl'
 
-classes = ['black', 'white', 'red', 'blue', 'green', 'yellow']
+classes = ['black', 'white', 'red', 'blue', 'green', 'yellow', 'grey', 'purple', 'brown', 'orange']
 path = Path(__file__).parent
 
 app = Starlette()
